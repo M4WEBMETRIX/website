@@ -21,31 +21,31 @@ class ProjectController extends Controller
                     "name": "m4academia",
                     "description": "A Learners Management System",
                     "filter": "web",
-                    "img": "img/portfolio/m4academia.png"
+                    "img": "asset/img/portfolio/m4academia.png"
                 },
                 {
                     "name": "UNN Business Directory",
                     "description": "A Listing platform for mini businesses",
                     "filter": "web",
-                    "img": "img/portfolio/unnbizdir.png"
+                    "img": "asset/img/portfolio/unnbizdir.png"
                 },
                 {
                     "name": "xTracker",
                     "description": "An expenses tracking mobile application",
                     "filter": "app",
-                    "img": "img/portfolio/xtracker.png"
+                    "img": "asset/img/portfolio/xtracker.png"
                 },
                 {
                     "name": "UNNConnect",
                     "description": "A market place for all students",
                     "filter": "app",
-                    "img": "img/portfolio/unnconnect.png"
+                    "img": "asset/img/portfolio/unnconnect.png"
                 },
                 {
                     "name": "Portfolio App",
                     "description": "A Portfolio App",
                     "filter": "web",
-                    "img": "img/portfolio/m4portfolio.png"
+                    "img": "asset/img/portfolio/m4portfolio.png"
                 }
             ]
         ';
