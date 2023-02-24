@@ -29,12 +29,12 @@
 
         <div class="row about-container">
 
-          <div class="col-lg-6 content order-lg-1 order-2">
+          <div class="col-lg-6 content order-lg-1 order-2" style="text-align: justify;line-height: 10px">
             <h4 style="font-weight: bold;">Our Goal</h4>
             <p>
                 Our goal is to help businesses of all sizes understand and improve their online performance, by providing actionable insights and powerful tools that can help them drive more traffic, increase conversions, and grow their revenue.
             </p>
-            <p>
+            <p style="text-indent: 30px">
                 We understand that every business is unique, and that's why we offer a customized approach to each of our clients. Our team of experienced professionals will work closely with you to understand your specific needs and goals, and then develop a tailored solution that is designed to meet those needs.
             </p>
           </div>
@@ -47,12 +47,12 @@
             <div class="col-lg-6 wow fadeInUp">
               <img src="{{asset('asset/img/about-extra-1.svg')}}" class="img-fluid" alt="">
             </div>
-            <div class="col-lg-6 wow fadeInUp pt-5 pt-lg-0">
+            <div class="col-lg-6 wow fadeInUp pt-5 pt-lg-0" style="text-align: justify;line-height: 20px">
               <h4>So why choose us?</h4>
               <p>
                 Because we're committed to providing you with the best service possible, and we're dedicated to helping you achieve your business goals.
               </p>
-              <p>
+              <p style="text-indent: 30px">
                 Whether you're looking to improve your website's search engine rankings, increase conversions, or gain a deeper understanding of your customers, M4WebMetrix has the expertise and tools to help you succeed.
              </p>
             </div>
@@ -171,168 +171,21 @@
     @include('partials.testimonials')
 <!-- #testimonials -->
 
-{{--    <!--==========================
+    <!--==========================
       Team Section
     ============================-->
-    <section id="team">
-      <div class="container">
-        <div class="section-header">
-          <h3>Team</h3>
-          <p>Our team of experienced developers and designers are dedicated to creating high-quality, user-friendly software that helps businesses increase efficiency and drive growth.</p>
-        </div>
-
-        <div class="row">
-
-          <div class="col-lg-3 col-md-6 wow fadeInUp">
-            <div class="member">
-              <img src="img/team-1.jpg" class="img-fluid" alt="">
-              <div class="member-info">
-                <div class="member-info-content">
-                  <h4>Walter White</h4>
-                  <span>Chief Executive Officer</span>
-                  <div class="social">
-                    <a href=""><i class="fa fa-twitter"></i></a>
-                    <a href=""><i class="fa fa-facebook"></i></a>
-                    <a href=""><i class="fa fa-google-plus"></i></a>
-                    <a href=""><i class="fa fa-linkedin"></i></a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.1s">
-            <div class="member">
-              <img src="img/team-2.jpg" class="img-fluid" alt="">
-              <div class="member-info">
-                <div class="member-info-content">
-                  <h4>Sarah Jhonson</h4>
-                  <span>Product Manager</span>
-                  <div class="social">
-                    <a href=""><i class="fa fa-twitter"></i></a>
-                    <a href=""><i class="fa fa-facebook"></i></a>
-                    <a href=""><i class="fa fa-google-plus"></i></a>
-                    <a href=""><i class="fa fa-linkedin"></i></a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.2s">
-            <div class="member">
-              <img src="img/team-3.jpg" class="img-fluid" alt="">
-              <div class="member-info">
-                <div class="member-info-content">
-                  <h4>William Anderson</h4>
-                  <span>CTO</span>
-                  <div class="social">
-                    <a href=""><i class="fa fa-twitter"></i></a>
-                    <a href=""><i class="fa fa-facebook"></i></a>
-                    <a href=""><i class="fa fa-google-plus"></i></a>
-                    <a href=""><i class="fa fa-linkedin"></i></a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-          <div class="col-lg-3 col-md-6 wow fadeInUp" data-wow-delay="0.3s">
-            <div class="member">
-              <img src="img/team-4.jpg" class="img-fluid" alt="">
-              <div class="member-info">
-                <div class="member-info-content">
-                  <h4>Amanda Jepson</h4>
-                  <span>Accountant</span>
-                  <div class="social">
-                    <a href=""><i class="fa fa-twitter"></i></a>
-                    <a href=""><i class="fa fa-facebook"></i></a>
-                    <a href=""><i class="fa fa-google-plus"></i></a>
-                    <a href=""><i class="fa fa-linkedin"></i></a>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-
-        </div>
-
-      </div>
-    </section><!-- #team -->
+{{--    @include('partials.team')--}}
+      <!-- #team -->
 
     <!--==========================
       Clients Section
     ============================-->
-    <section id="clients" class="section-bg">
-
-      <div class="container">
-
-        <div class="section-header">
-          <h3>Our CLients</h3>
-          <p>Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque dere santome nida.</p>
-        </div>
-
-        <div class="row no-gutters clients-wrap clearfix wow fadeInUp">
-
-          <div class="col-lg-3 col-md-4 col-xs-6">
-            <div class="client-logo">
-              <img src="img/clients/client-1.png" class="img-fluid" alt="">
-            </div>
-          </div>
-          
-          <div class="col-lg-3 col-md-4 col-xs-6">
-            <div class="client-logo">
-              <img src="img/clients/client-2.png" class="img-fluid" alt="">
-            </div>
-          </div>
-        
-          <div class="col-lg-3 col-md-4 col-xs-6">
-            <div class="client-logo">
-              <img src="img/clients/client-3.png" class="img-fluid" alt="">
-            </div>
-          </div>
-          
-          <div class="col-lg-3 col-md-4 col-xs-6">
-            <div class="client-logo">
-              <img src="img/clients/client-4.png" class="img-fluid" alt="">
-            </div>
-          </div>
-          
-          <div class="col-lg-3 col-md-4 col-xs-6">
-            <div class="client-logo">
-              <img src="img/clients/client-5.png" class="img-fluid" alt="">
-            </div>
-          </div>
-        
-          <div class="col-lg-3 col-md-4 col-xs-6">
-            <div class="client-logo">
-              <img src="img/clients/client-6.png" class="img-fluid" alt="">
-            </div>
-          </div>
-          
-          <div class="col-lg-3 col-md-4 col-xs-6">
-            <div class="client-logo">
-              <img src="img/clients/client-7.png" class="img-fluid" alt="">
-            </div>
-          </div>
-          
-          <div class="col-lg-3 col-md-4 col-xs-6">
-            <div class="client-logo">
-              <img src="img/clients/client-8.png" class="img-fluid" alt="">
-            </div>
-          </div>
-
-        </div>
-
-      </div>
-
-    </section> --}}
-
+{{--    @include('partials.clients')--}}
     <!--==========================
       Contact Section
     ============================-->
     <section id="contact">
-      <div class="container-fluid">
+      <div class="container">
 
         <div class="section-header">
           <h3>Contact Us</h3>
@@ -345,11 +198,11 @@
               </div>
               <div class="col-md-4 info">
                 <i class="ion-ios-email-outline"></i>
-                <p>info@m4webmetrix.com</p>
+                <p><a href="mailto:info@m4webmetrix.com" style="color:black">info@m4webmetrix.com</a></p>
               </div>
               <div class="col-md-3 info">
                 <i class="ion-ios-telephone-outline"></i>
-                <p>+234 811 808 5789</p>
+                <a href="tel:+234 811 808 5789" style="color:black"><p>+234 811 808 5789</p></a>
               </div>
             </div>
 
@@ -363,7 +216,7 @@
           <div class="col-lg-6">
 
             <div class="form">
-              <div id="sendmessage">Your message has been sent. Thank you!</div>
+              <div id="sendmessage" @class('text-center') style="border: 1px solid #1e7e34!important; color: #1c7430!important;margin: 10px 0;">Your message has been sent. Thank you!</div>
               <div id="errormessage"></div>
               <form action="" method="post" role="form" class="contactForm">
                 <div class="form-row">

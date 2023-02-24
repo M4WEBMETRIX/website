@@ -92,15 +92,16 @@ jQuery(document).ready(function($) {
     else var str = $(this).serialize();
     var action = $(this).attr('action');
     if( ! action ) {
-      action = 'contactform/contactform.php';
+      action = '/contactform';
     }
     $.ajax({
-      type: "POST",
+      type: "GET",
       url: action,
       data: str,
       success: function(msg) {
         // alert(msg);
-        if (msg == 'OK') {
+          console.log(msg);
+          if (msg) {
           $("#sendmessage").addClass("show");
           $("#errormessage").removeClass("show");
           $('.contactForm').find("input, textarea").val("");
@@ -108,6 +109,7 @@ jQuery(document).ready(function($) {
           $("#sendmessage").removeClass("show");
           $("#errormessage").addClass("show");
           $('#errormessage').html(msg);
+          // console.log(msg)
         }
 
       }
